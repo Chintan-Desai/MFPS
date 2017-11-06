@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+
+<suite name="LearnAutomation">
+	<test name="Regression">
+		<classes>
+			<class name="testcases.FirstTestNG" />
+			<class name="testcases.SecondTestNG" />
+			<class name="testcases.ThirdTestCases" />
+
+		</classes>
+	</test>
+
+	<test name="SmokeTestSuite">
+		<classes>
+			<class name="testcases.AssertClass1" />
+		</classes>
+	</test>
+</suite> 
