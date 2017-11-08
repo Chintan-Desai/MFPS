@@ -24,6 +24,9 @@ public class LogOut {
 	@FindBy(how = How.XPATH, using = ".//*[@id='logoutlink']")
 	WebElement Logout;
 
+	@FindBy(how = How.XPATH, using =".//*[@id='g-header']/div[3]/ul/li[1]/a")
+	WebElement ReptTabLink;
+
 	@FindBy(xpath = "html/body/div[2]/div/span/p[1]")
 	WebElement logoutImg;
 
